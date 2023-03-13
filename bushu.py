@@ -91,7 +91,7 @@ def main(user, passwd, step):
         print ("用户名或密码填写有误！")
         return
 
-    if step == '':
+    if step == '5000':
         print ("已设置为随机步数（20000-29999）")
         step = str(random.randint(20000,29999))
     login_token = 0
